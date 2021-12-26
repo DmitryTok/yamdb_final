@@ -10,7 +10,7 @@ services:
 
   web:
     build: ../api_yamdb
-    image: 258647/yamdb_final
+    image: 258647/adpi_yamdb
     restart: always
     volumes:
       - static_value:/app/static/
